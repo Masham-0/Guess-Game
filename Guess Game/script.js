@@ -3,7 +3,7 @@
 let score = 20;
 let highscore = 0;
 let secretNumber = Math.trunc(Math.random() * 20 + 1);
-
+// Guess game where you guess number from 1 to 20
 document.querySelector('.check').addEventListener('click', function () {
   const guess = document.querySelector('.guess').value;
   console.log(guess, typeof guess);
